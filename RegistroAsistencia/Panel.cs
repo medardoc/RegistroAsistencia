@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RegistroAsistencia
 {
-    public partial class Login : Form
+    public partial class Panel : Form
     {
-        public Login()
+        public Panel()
         {
             InitializeComponent();
         }

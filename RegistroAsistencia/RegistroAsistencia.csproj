@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Login.cs">
+    <Compile Include="Panel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="Panel.Designer.cs">
+      <DependentUpon>Panel.cs</DependentUpon>
     </Compile>
     <Compile Include="Vista2.cs">
       <SubType>Form</SubType>
@@ -58,11 +58,11 @@
     <Compile Include="Vista2.Designer.cs">
       <DependentUpon>Vista2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vista1.cs">
+    <Compile Include="Vista.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vista1.Designer.cs">
-      <DependentUpon>Vista1.cs</DependentUpon>
+    <Compile Include="Vista.Designer.cs">
+      <DependentUpon>Vista.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,11 +96,11 @@
     <Compile Include="Vista7.Designer.cs">
       <DependentUpon>Vista7.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="Panel.resx">
+      <DependentUpon>Panel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vista1.resx">
-      <DependentUpon>Vista1.cs</DependentUpon>
+    <EmbeddedResource Include="Vista.resx">
+      <DependentUpon>Vista.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,6 +112,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Vista2.resx">
+      <DependentUpon>Vista2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista3.resx">
+      <DependentUpon>Vista3.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -136,6 +142,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iniciar-sesion2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asistencia-social.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asistencia-social2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
