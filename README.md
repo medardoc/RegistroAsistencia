@@ -20,9 +20,17 @@
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tuusuario/nombre-repositorio.git
+   git clone https://github.com/tuusuario/nombre![Imagen de WhatsApp 2024-09-21 a las 13 31 26_c16c785c](https://github.com/user-attachments/assets/d39f0355-6d7e-4472-91f1-d3840260c678)
+-repositorio.git
 2. Aquí podras apreciar fotos del Software:
-   ![Imagen de WhatsApp 2024-09-21 a las 13 31 26_c16c785c](https://github.com/user-attachments/assets/0b09df72-530d-49aa-b62e-c7f![Captura de pantalla 2024-09-24 093051](https://github.com/user-attachments/assets/f2c9b84c-4849-43be-8740-a34338b01608)
-96180b0d4)
+
+![Uploading Imagen de WhatsApp 2024-09-21 a las 13.31.26_c16c785c.jpg…]()
+
+
+![Captura de pantalla 2024-09-24 093051](https://github.com/user-attachments/assets/a80dfe01-67e3-4767-919b-e7345e8b7661)
+
+![Captura de pantalla 2024-09-24 074847](https://github.com/user-attachments/assets/3ecf8a22-557b-4645-96aa-163dc06f829f)
+
+   
    
 ![Captura de pantalla 2024-09-22 053915](https://github.com/user-attachments/assets/5c0748ae-8f75-4731-95c7-3eb8b32c46a0)
