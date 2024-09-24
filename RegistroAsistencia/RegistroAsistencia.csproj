@@ -34,6 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +50,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActualizarDatosEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarDatosEmpleado.Designer.cs">
+      <DependentUpon>ActualizarDatosEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarColaborador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarColaborador.Designer.cs">
+      <DependentUpon>AgregarColaborador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarEmpleado.Designer.cs">
+      <DependentUpon>ConsultarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarEmpleado.Designer.cs">
+      <DependentUpon>EliminarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarAusencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarAusencia.Designer.cs">
+      <DependentUpon>GestionarAusencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginAdministrativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginAdministrativo.Designer.cs">
+      <DependentUpon>loginAdministrativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarcarEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarcarEntrada.Designer.cs">
+      <DependentUpon>MarcarEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarcarSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarcarSalida.Designer.cs">
+      <DependentUpon>MarcarSalida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministrador.Designer.cs">
+      <DependentUpon>MenuAdministrador.cs</DependentUpon>
+    </Compile>
     <Compile Include="Panel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,36 +112,45 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vista3.cs">
+    <Compile Include="RegistroAsistencia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vista3.Designer.cs">
-      <DependentUpon>Vista3.cs</DependentUpon>
+    <Compile Include="RegistroAsistencia.Designer.cs">
+      <DependentUpon>RegistroAsistencia.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vista4.cs">
+    <Compile Include="ReporteIncidencias.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vista4.Designer.cs">
-      <DependentUpon>Vista4.cs</DependentUpon>
+    <Compile Include="ReporteIncidencias.Designer.cs">
+      <DependentUpon>ReporteIncidencias.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vista5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vista5.Designer.cs">
-      <DependentUpon>Vista5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Vista6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vista6.Designer.cs">
-      <DependentUpon>Vista6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Vista7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vista7.Designer.cs">
-      <DependentUpon>Vista7.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="ActualizarDatosEmpleado.resx">
+      <DependentUpon>ActualizarDatosEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarColaborador.resx">
+      <DependentUpon>AgregarColaborador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarEmpleado.resx">
+      <DependentUpon>ConsultarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarEmpleado.resx">
+      <DependentUpon>EliminarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarAusencia.resx">
+      <DependentUpon>GestionarAusencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginAdministrativo.resx">
+      <DependentUpon>loginAdministrativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarcarEntrada.resx">
+      <DependentUpon>MarcarEntrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarcarSalida.resx">
+      <DependentUpon>MarcarSalida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministrador.resx">
+      <DependentUpon>MenuAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Panel.resx">
       <DependentUpon>Panel.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,9 +164,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Vista3.resx">
-      <DependentUpon>Vista3.cs</DependentUpon>
+    <EmbeddedResource Include="RegistroAsistencia.resx">
+      <DependentUpon>RegistroAsistencia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReporteIncidencias.resx">
+      <DependentUpon>ReporteIncidencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -130,6 +201,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\asistencia-social2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perfil2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contrasena2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perfil %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ausencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caja-registradora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formulario-de-consentimiento-del-donante.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,7 +16,7 @@ namespace RegistroAsistencia
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Vista1());
+            Application.Run(new Panel());
         }
     }
 }

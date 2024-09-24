@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.btnDemo = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.btnSalida = new System.Windows.Forms.Button();
+            this.btnEntrada = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -47,36 +47,37 @@
             this.label1.Text = "Bienvenidos a Registro Asistencia";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // btnDemo
+            // btnLogin
             // 
-            this.btnDemo.Location = new System.Drawing.Point(815, 493);
-            this.btnDemo.Name = "btnDemo";
-            this.btnDemo.Size = new System.Drawing.Size(32, 23);
-            this.btnDemo.TabIndex = 2;
-            this.btnDemo.Text = "?";
-            this.btnDemo.UseVisualStyleBackColor = true;
-            this.btnDemo.Click += new System.EventHandler(this.button1_Click);
+            this.btnLogin.Location = new System.Drawing.Point(782, 469);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(40, 30);
+            this.btnLogin.TabIndex = 2;
+            this.btnLogin.Text = "?";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // button2
+            // btnSalida
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(478, 310);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(241, 79);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Marcar Salida";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnSalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalida.Location = new System.Drawing.Point(478, 310);
+            this.btnSalida.Name = "btnSalida";
+            this.btnSalida.Size = new System.Drawing.Size(241, 79);
+            this.btnSalida.TabIndex = 3;
+            this.btnSalida.Text = "Marcar Salida";
+            this.btnSalida.UseVisualStyleBackColor = true;
+            this.btnSalida.Click += new System.EventHandler(this.btnSalida_Click);
             // 
-            // button3
+            // btnEntrada
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(181, 310);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(231, 79);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Marcar Entrada";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrada.Location = new System.Drawing.Point(181, 310);
+            this.btnEntrada.Name = "btnEntrada";
+            this.btnEntrada.Size = new System.Drawing.Size(231, 79);
+            this.btnEntrada.TabIndex = 4;
+            this.btnEntrada.Text = "Marcar Entrada";
+            this.btnEntrada.UseVisualStyleBackColor = true;
+            this.btnEntrada.Click += new System.EventHandler(this.btnEntrada_Click);
             // 
             // pictureBox1
             // 
@@ -92,11 +93,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(850, 528);
+            this.ClientSize = new System.Drawing.Size(834, 511);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnDemo);
+            this.Controls.Add(this.btnEntrada);
+            this.Controls.Add(this.btnSalida);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label1);
             this.Name = "Panel";
             this.Text = "Bienvenidos a Control de Asistencia";
@@ -110,9 +111,11 @@
         #endregion
 
         public System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnDemo;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.Button btnSalida;
+        public System.Windows.Forms.Button btnEntrada;
+        public System.Windows.Forms.Button btnLogin;
     }
+
+    
 }
