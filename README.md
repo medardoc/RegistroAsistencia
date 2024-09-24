@@ -24,13 +24,9 @@
 -repositorio.git
 2. Aquí podras apreciar fotos del Software:
 
-![Uploading Imagen de WhatsApp 2024-09-21 a las 13.31.26_c16c785c.jpg…]()
-
 
 ![Captura de pantalla 2024-09-24 093051](https://github.com/user-attachments/assets/a80dfe01-67e3-4767-919b-e7345e8b7661)
 
 ![Captura de pantalla 2024-09-24 074847](https://github.com/user-attachments/assets/3ecf8a22-557b-4645-96aa-163dc06f829f)
 
-   
-   
 ![Captura de pantalla 2024-09-22 053915](https://github.com/user-attachments/assets/5c0748ae-8f75-4731-95c7-3eb8b32c46a0)
